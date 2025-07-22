@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poiret+One&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+*{
+    font-size: 15px;
+    font-family: "Poiret One", sans-serif;
+}
+.login-page ,p {
+    text-align: center;
+    margin: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+
+}
+
+body{
+    background-image: url(pexels-simon73-1183099.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+section{
+    text-align: center;
+    border:  2px solid rgba(255, 255, 255, 0.485);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    width: 60%;
+    
+    
+}
+.input-box{
+    margin: 15px;
+    position: relative;
+    
+   
+}
+.input-box input{
+    margin-left:5px;
+    margin-right:5px;
+    width:75%;
+    padding: 5%;
+    border-radius: 25vh;
+   outline: none;
+    border: 2px solid transparent;
+    padding-right: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.485);
+    background-color: transparent;
+    color: white;
+
+    
+    
+
+}
+
+.input-box  i{
+    
+    transform: translatex(-50px);
+    margin-top: 15px;
+    color: white;
+    
+
+}
+.input-box input::placeholder{
+    color: white;
+}
+button{
+    margin-top: 15px;
+    margin-bottom:15px ;
+    padding: 12px;
+    width: 360px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.485);
+    cursor: pointer;
+    transition: 0.5ms;
+    color: black;
+    font-weight: bold;
+
+
+
+}
+button:hover{
+    background-color: transparent;
+}
+
+.remenber label,.no-compte{
+    margin-right: 50px;
+    color: white;
+
+
+}
+
+.remenber span, .no-compte span{
+    color: white;
+    font-weight: bold;
+    transition: 0.05ms;
+}
+
+.remenber span:hover , .no-compte span:hover{
+    text-decoration: underline;
+}
+.no-compte{
+    margin-bottom: 20px;
+    transition: 0.5ms;
+}
+
+button:hover{
+    color: white;
+    
+}
